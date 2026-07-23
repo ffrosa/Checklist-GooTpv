@@ -1,0 +1,66 @@
+{
+  "name": "Sistema GooTpv",
+  "short_name": "GooTpv",
+  "description": "Sistema de Gestión Técnica para TPV - Auditorías, CRM, Checklists y Dashboard",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#14b8a6",
+  "orientation": "any",
+  "scope": "/",
+  "lang": "es",
+  "categories": ["business", "productivity", "utilities"],
+  "icons": [
+    {
+      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'%3E%3Crect fill='%230f172a' width='192' height='192' rx='32'/%3E%3Ctext x='96' y='120' font-size='80' text-anchor='middle' fill='%2314b8a6'%3E🛒%3C/text%3E%3C/svg%3E",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Crect fill='%230f172a' width='512' height='512' rx='64'/%3E%3Ctext x='256' y='320' font-size='200' text-anchor='middle' fill='%2314b8a6'%3E🛒%3C/text%3E%3C/svg%3E",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1280 720'%3E%3Crect fill='%23f0fdfa' width='1280' height='720'/%3E%3Ctext x='640' y='360' font-size='60' text-anchor='middle' fill='%2314b8a6'%3EGooTpv Dashboard%3C/text%3E%3C/svg%3E",
+      "sizes": "1280x720",
+      "type": "image/svg+xml",
+      "form_factor": "wide"
+    },
+    {
+      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 750 1334'%3E%3Crect fill='%230f172a' width='750' height='1334'/%3E%3Ctext x='375' y='667' font-size='50' text-anchor='middle' fill='%2314b8a6'%3EGooTpv Mobile%3C/text%3E%3C/svg%3E",
+      "sizes": "750x1334",
+      "type": "image/svg+xml",
+      "form_factor": "narrow"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Dashboard",
+      "short_name": "Dashboard",
+      "description": "Ver resumen general",
+      "url": "/?page=dashboard",
+      "icons": [{ "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 96 96'%3E%3Crect fill='%2314b8a6' width='96' height='96' rx='16'/%3E%3Ctext x='48' y='60' font-size='40' text-anchor='middle' fill='white'%3E📊%3C/text%3E%3C/svg%3E", "sizes": "96x96" }]
+    },
+    {
+      "name": "Nueva Tarea",
+      "short_name": "Tarea",
+      "description": "Crear nueva tarea",
+      "url": "/?page=tasks&action=new",
+      "icons": [{ "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 96 96'%3E%3Crect fill='%2314b8a6' width='96' height='96' rx='16'/%3E%3Ctext x='48' y='60' font-size='40' text-anchor='middle' fill='white'%3E✅%3C/text%3E%3C/svg%3E", "sizes": "96x96" }]
+    },
+    {
+      "name": "Clientes",
+      "short_name": "Clientes",
+      "description": "Ver lista de clientes",
+      "url": "/?page=clients",
+      "icons": [{ "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 96 96'%3E%3Crect fill='%2314b8a6' width='96' height='96' rx='16'/%3E%3Ctext x='48' y='60' font-size='40' text-anchor='middle' fill='white'%3E👥%3C/text%3E%3C/svg%3E", "sizes": "96x96" }]
+    }
+  ],
+  "related_applications": [],
+  "prefer_related_applications": false
+}
